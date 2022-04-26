@@ -10,7 +10,7 @@
 // ASCII image weather API: https://editor.p5js.org/codingtrain/sketches/DhdqcoWn4
 
 // const density = "Ñ@#W$9876543210?!abc;:+=-,._                    ";
-const density = '       .:-i|=+%O#@'
+const density = '      123456789%x*&'
 
 let video;
 let asciiDiv;
@@ -18,7 +18,7 @@ let asciiDiv;
 function setup() {
   noCanvas();
   video = createCapture(VIDEO);
-  video.size(64, 48);
+  video.size(256, 144);
   asciiDiv = createDiv();
 }
 
